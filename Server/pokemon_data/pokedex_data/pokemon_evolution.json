@@ -42,16 +42,16 @@
         "Psychic"
       ],
       "number": "0065",
-      "sub_name": "",
+      "sub_name": "Mega Alakazam",
       "stats": {
-        "total": 500,
-        "exp": 500,
+        "total": 600,
+        "exp": 600,
         "hp": 55,
         "attack": 50,
-        "defense": 45,
-        "sp_atk": 135,
-        "sp_def": 95,
-        "speed": 120
+        "defense": 65,
+        "sp_atk": 175,
+        "sp_def": 105,
+        "speed": 150
       }
     }
   ],
@@ -101,15 +101,15 @@
         "Poison"
       ],
       "number": "0003",
-      "sub_name": "Mega Venusaur",
+      "sub_name": "",
       "stats": {
-        "total": 625,
-        "exp": 625,
+        "total": 525,
+        "exp": 525,
         "hp": 80,
-        "attack": 100,
-        "defense": 123,
-        "sp_atk": 122,
-        "sp_def": 120,
+        "attack": 82,
+        "defense": 83,
+        "sp_atk": 100,
+        "sp_def": 100,
         "speed": 80
       }
     }
@@ -215,15 +215,15 @@
         "Flying"
       ],
       "number": "0006",
-      "sub_name": "Mega Charizard Y",
+      "sub_name": "",
       "stats": {
-        "total": 634,
-        "exp": 634,
+        "total": 534,
+        "exp": 534,
         "hp": 78,
-        "attack": 104,
+        "attack": 84,
         "defense": 78,
-        "sp_atk": 159,
-        "sp_def": 115,
+        "sp_atk": 109,
+        "sp_def": 85,
         "speed": 100
       }
     }
@@ -254,15 +254,15 @@
         "Flying"
       ],
       "number": "0006",
-      "sub_name": "Mega Charizard Y",
+      "sub_name": "",
       "stats": {
-        "total": 634,
-        "exp": 634,
+        "total": 534,
+        "exp": 534,
         "hp": 78,
-        "attack": 104,
+        "attack": 84,
         "defense": 78,
-        "sp_atk": 159,
-        "sp_def": 115,
+        "sp_atk": 109,
+        "sp_def": 85,
         "speed": 100
       }
     }
@@ -386,20 +386,19 @@
     {
       "name": "Diglett",
       "types": [
-        "Ground",
-        "Steel"
+        "Ground"
       ],
       "number": "0050",
-      "sub_name": "Alolan Diglett",
+      "sub_name": "",
       "stats": {
         "total": 265,
         "exp": 265,
         "hp": 10,
         "attack": 55,
-        "defense": 30,
+        "defense": 25,
         "sp_atk": 35,
         "sp_def": 45,
-        "speed": 90
+        "speed": 95
       }
     },
     {
@@ -419,24 +418,6 @@
         "sp_atk": 50,
         "sp_def": 70,
         "speed": 110
-      }
-    },
-    {
-      "name": "Meowth",
-      "types": [
-        "Steel"
-      ],
-      "number": "0052",
-      "sub_name": "Galarian Meowth",
-      "stats": {
-        "total": 290,
-        "exp": 290,
-        "hp": 50,
-        "attack": 65,
-        "defense": 55,
-        "sp_atk": 40,
-        "sp_def": 40,
-        "speed": 40
       }
     }
   ],
@@ -621,16 +602,16 @@
         "Poison"
       ],
       "number": "0094",
-      "sub_name": "",
+      "sub_name": "Mega Gengar",
       "stats": {
-        "total": 500,
-        "exp": 500,
+        "total": 600,
+        "exp": 600,
         "hp": 60,
         "attack": 65,
-        "defense": 60,
-        "sp_atk": 130,
-        "sp_def": 75,
-        "speed": 110
+        "defense": 80,
+        "sp_atk": 170,
+        "sp_def": 95,
+        "speed": 130
       }
     }
   ],
@@ -741,16 +722,16 @@
         "Poison"
       ],
       "number": "0094",
-      "sub_name": "",
+      "sub_name": "Mega Gengar",
       "stats": {
-        "total": 500,
-        "exp": 500,
+        "total": 600,
+        "exp": 600,
         "hp": 60,
         "attack": 65,
-        "defense": 60,
-        "sp_atk": 130,
-        "sp_def": 75,
-        "speed": 110
+        "defense": 80,
+        "sp_atk": 170,
+        "sp_def": 95,
+        "speed": 130
       }
     }
   ],
@@ -781,15 +762,15 @@
         "Poison"
       ],
       "number": "0003",
-      "sub_name": "Mega Venusaur",
+      "sub_name": "",
       "stats": {
-        "total": 625,
-        "exp": 625,
+        "total": 525,
+        "exp": 525,
         "hp": 80,
-        "attack": 100,
-        "defense": 123,
-        "sp_atk": 122,
-        "sp_def": 120,
+        "attack": 82,
+        "defense": 83,
+        "sp_atk": 100,
+        "sp_def": 100,
         "speed": 80
       }
     }
@@ -859,16 +840,16 @@
         "Psychic"
       ],
       "number": "0065",
-      "sub_name": "",
+      "sub_name": "Mega Alakazam",
       "stats": {
-        "total": 500,
-        "exp": 500,
+        "total": 600,
+        "exp": 600,
         "hp": 55,
         "attack": 50,
-        "defense": 45,
-        "sp_atk": 135,
-        "sp_def": 95,
-        "speed": 120
+        "defense": 65,
+        "sp_atk": 175,
+        "sp_def": 105,
+        "speed": 150
       }
     }
   ],
@@ -1092,16 +1073,16 @@
         "Flying"
       ],
       "number": "0018",
-      "sub_name": "Mega Pidgeot",
+      "sub_name": "",
       "stats": {
-        "total": 579,
-        "exp": 579,
+        "total": 479,
+        "exp": 479,
         "hp": 83,
         "attack": 80,
-        "defense": 80,
-        "sp_atk": 135,
-        "sp_def": 80,
-        "speed": 121
+        "defense": 75,
+        "sp_atk": 70,
+        "sp_def": 70,
+        "speed": 101
       }
     },
     {
@@ -1150,16 +1131,16 @@
         "Flying"
       ],
       "number": "0018",
-      "sub_name": "Mega Pidgeot",
+      "sub_name": "",
       "stats": {
-        "total": 579,
-        "exp": 579,
+        "total": 479,
+        "exp": 479,
         "hp": 83,
         "attack": 80,
-        "defense": 80,
-        "sp_atk": 135,
-        "sp_def": 80,
-        "speed": 121
+        "defense": 75,
+        "sp_atk": 70,
+        "sp_def": 70,
+        "speed": 101
       }
     },
     {
@@ -1227,16 +1208,16 @@
         "Flying"
       ],
       "number": "0018",
-      "sub_name": "Mega Pidgeot",
+      "sub_name": "",
       "stats": {
-        "total": 579,
-        "exp": 579,
+        "total": 479,
+        "exp": 479,
         "hp": 83,
         "attack": 80,
-        "defense": 80,
-        "sp_atk": 135,
-        "sp_def": 80,
-        "speed": 121
+        "defense": 75,
+        "sp_atk": 70,
+        "sp_def": 70,
+        "speed": 101
       }
     }
   ],
@@ -1247,16 +1228,16 @@
         "Electric"
       ],
       "number": "0025",
-      "sub_name": "",
+      "sub_name": "Partner Pikachu",
       "stats": {
-        "total": 320,
-        "exp": 320,
-        "hp": 35,
-        "attack": 55,
-        "defense": 40,
-        "sp_atk": 50,
-        "sp_def": 50,
-        "speed": 90
+        "total": 430,
+        "exp": 430,
+        "hp": 45,
+        "attack": 80,
+        "defense": 50,
+        "sp_atk": 75,
+        "sp_def": 60,
+        "speed": 120
       }
     },
     {
@@ -1321,36 +1302,38 @@
     {
       "name": "Sandshrew",
       "types": [
-        "Ground"
+        "Ice",
+        "Steel"
       ],
       "number": "0027",
-      "sub_name": "",
+      "sub_name": "Alolan Sandshrew",
       "stats": {
         "total": 300,
         "exp": 300,
         "hp": 50,
         "attack": 75,
-        "defense": 85,
-        "sp_atk": 20,
-        "sp_def": 30,
+        "defense": 90,
+        "sp_atk": 10,
+        "sp_def": 35,
         "speed": 40
       }
     },
     {
       "name": "Sandslash",
       "types": [
-        "Ground"
+        "Ice",
+        "Steel"
       ],
       "number": "0028",
-      "sub_name": "",
+      "sub_name": "Alolan Sandslash",
       "stats": {
         "total": 450,
         "exp": 450,
         "hp": 75,
         "attack": 100,
-        "defense": 110,
-        "sp_atk": 45,
-        "sp_def": 55,
+        "defense": 120,
+        "sp_atk": 25,
+        "sp_def": 65,
         "speed": 65
       }
     }
@@ -1437,15 +1420,15 @@
         "Water"
       ],
       "number": "0009",
-      "sub_name": "",
+      "sub_name": "Mega Blastoise",
       "stats": {
-        "total": 530,
-        "exp": 530,
+        "total": 630,
+        "exp": 630,
         "hp": 79,
-        "attack": 83,
-        "defense": 100,
-        "sp_atk": 85,
-        "sp_def": 105,
+        "attack": 103,
+        "defense": 120,
+        "sp_atk": 135,
+        "sp_def": 115,
         "speed": 78
       }
     }
@@ -1514,15 +1497,15 @@
         "Water"
       ],
       "number": "0009",
-      "sub_name": "",
+      "sub_name": "Mega Blastoise",
       "stats": {
-        "total": 530,
-        "exp": 530,
+        "total": 630,
+        "exp": 630,
         "hp": 79,
-        "attack": 83,
-        "defense": 100,
-        "sp_atk": 85,
-        "sp_def": 105,
+        "attack": 103,
+        "defense": 120,
+        "sp_atk": 135,
+        "sp_def": 115,
         "speed": 78
       }
     }

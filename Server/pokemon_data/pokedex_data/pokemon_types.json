@@ -101,15 +101,15 @@
       "Poison"
     ],
     "number": "0003",
-    "sub_name": "Mega Venusaur",
+    "sub_name": "",
     "stats": {
-      "total": 625,
-      "exp": 625,
+      "total": 525,
+      "exp": 525,
       "hp": 80,
-      "attack": 100,
-      "defense": 123,
-      "sp_atk": 122,
-      "sp_def": 120,
+      "attack": 82,
+      "defense": 83,
+      "sp_atk": 100,
+      "sp_def": 100,
       "speed": 80
     }
   },
@@ -120,15 +120,15 @@
       "Poison"
     ],
     "number": "0003",
-    "sub_name": "",
+    "sub_name": "Mega Venusaur",
     "stats": {
-      "total": 525,
-      "exp": 525,
+      "total": 625,
+      "exp": 625,
       "hp": 80,
-      "attack": 82,
-      "defense": 83,
-      "sp_atk": 100,
-      "sp_def": 100,
+      "attack": 100,
+      "defense": 123,
+      "sp_atk": 122,
+      "sp_def": 120,
       "speed": 80
     }
   },
@@ -191,44 +191,6 @@
     "name": "Charizard",
     "types": [
       "Fire",
-      "Flying"
-    ],
-    "number": "0006",
-    "sub_name": "",
-    "stats": {
-      "total": 534,
-      "exp": 534,
-      "hp": 78,
-      "attack": 84,
-      "defense": 78,
-      "sp_atk": 109,
-      "sp_def": 85,
-      "speed": 100
-    }
-  },
-  {
-    "name": "Charizard",
-    "types": [
-      "Fire",
-      "Flying"
-    ],
-    "number": "0006",
-    "sub_name": "Mega Charizard Y",
-    "stats": {
-      "total": 634,
-      "exp": 634,
-      "hp": 78,
-      "attack": 104,
-      "defense": 78,
-      "sp_atk": 159,
-      "sp_def": 115,
-      "speed": 100
-    }
-  },
-  {
-    "name": "Charizard",
-    "types": [
-      "Fire",
       "Dragon"
     ],
     "number": "0006",
@@ -241,25 +203,6 @@
       "defense": 111,
       "sp_atk": 130,
       "sp_def": 85,
-      "speed": 100
-    }
-  },
-  {
-    "name": "Charizard",
-    "types": [
-      "Fire",
-      "Flying"
-    ],
-    "number": "0006",
-    "sub_name": "Mega Charizard Y",
-    "stats": {
-      "total": 634,
-      "exp": 634,
-      "hp": 78,
-      "attack": 104,
-      "defense": 78,
-      "sp_atk": 159,
-      "sp_def": 115,
       "speed": 100
     }
   },
@@ -298,6 +241,63 @@
       "defense": 111,
       "sp_atk": 130,
       "sp_def": 85,
+      "speed": 100
+    }
+  },
+  {
+    "name": "Charizard",
+    "types": [
+      "Fire",
+      "Flying"
+    ],
+    "number": "0006",
+    "sub_name": "Mega Charizard Y",
+    "stats": {
+      "total": 634,
+      "exp": 634,
+      "hp": 78,
+      "attack": 104,
+      "defense": 78,
+      "sp_atk": 159,
+      "sp_def": 115,
+      "speed": 100
+    }
+  },
+  {
+    "name": "Charizard",
+    "types": [
+      "Fire",
+      "Flying"
+    ],
+    "number": "0006",
+    "sub_name": "",
+    "stats": {
+      "total": 534,
+      "exp": 534,
+      "hp": 78,
+      "attack": 84,
+      "defense": 78,
+      "sp_atk": 109,
+      "sp_def": 85,
+      "speed": 100
+    }
+  },
+  {
+    "name": "Charizard",
+    "types": [
+      "Fire",
+      "Flying"
+    ],
+    "number": "0006",
+    "sub_name": "Mega Charizard Y",
+    "stats": {
+      "total": 634,
+      "exp": 634,
+      "hp": 78,
+      "attack": 104,
+      "defense": 78,
+      "sp_atk": 159,
+      "sp_def": 115,
       "speed": 100
     }
   },
@@ -621,10 +621,11 @@
   {
     "name": "Rattata",
     "types": [
+      "Dark",
       "Normal"
     ],
     "number": "0019",
-    "sub_name": "",
+    "sub_name": "Alolan Rattata",
     "stats": {
       "total": 253,
       "exp": 253,
@@ -639,11 +640,10 @@
   {
     "name": "Rattata",
     "types": [
-      "Dark",
       "Normal"
     ],
     "number": "0019",
-    "sub_name": "Alolan Rattata",
+    "sub_name": "",
     "stats": {
       "total": 253,
       "exp": 253,
@@ -769,6 +769,44 @@
   {
     "name": "Sandshrew",
     "types": [
+      "Ice",
+      "Steel"
+    ],
+    "number": "0027",
+    "sub_name": "Alolan Sandshrew",
+    "stats": {
+      "total": 300,
+      "exp": 300,
+      "hp": 50,
+      "attack": 75,
+      "defense": 90,
+      "sp_atk": 10,
+      "sp_def": 35,
+      "speed": 40
+    }
+  },
+  {
+    "name": "Sandshrew",
+    "types": [
+      "Ice",
+      "Steel"
+    ],
+    "number": "0027",
+    "sub_name": "Alolan Sandshrew",
+    "stats": {
+      "total": 300,
+      "exp": 300,
+      "hp": 50,
+      "attack": 75,
+      "defense": 90,
+      "sp_atk": 10,
+      "sp_def": 35,
+      "speed": 40
+    }
+  },
+  {
+    "name": "Sandshrew",
+    "types": [
       "Ground"
     ],
     "number": "0027",
@@ -781,44 +819,6 @@
       "defense": 85,
       "sp_atk": 20,
       "sp_def": 30,
-      "speed": 40
-    }
-  },
-  {
-    "name": "Sandshrew",
-    "types": [
-      "Ice",
-      "Steel"
-    ],
-    "number": "0027",
-    "sub_name": "Alolan Sandshrew",
-    "stats": {
-      "total": 300,
-      "exp": 300,
-      "hp": 50,
-      "attack": 75,
-      "defense": 90,
-      "sp_atk": 10,
-      "sp_def": 35,
-      "speed": 40
-    }
-  },
-  {
-    "name": "Sandshrew",
-    "types": [
-      "Ice",
-      "Steel"
-    ],
-    "number": "0027",
-    "sub_name": "Alolan Sandshrew",
-    "stats": {
-      "total": 300,
-      "exp": 300,
-      "hp": 50,
-      "attack": 75,
-      "defense": 90,
-      "sp_atk": 10,
-      "sp_def": 35,
       "speed": 40
     }
   },
@@ -1124,24 +1124,6 @@
   {
     "name": "Meowth",
     "types": [
-      "Dark"
-    ],
-    "number": "0052",
-    "sub_name": "Alolan Meowth",
-    "stats": {
-      "total": 290,
-      "exp": 290,
-      "hp": 40,
-      "attack": 35,
-      "defense": 35,
-      "sp_atk": 50,
-      "sp_def": 40,
-      "speed": 90
-    }
-  },
-  {
-    "name": "Meowth",
-    "types": [
       "Steel"
     ],
     "number": "0052",
@@ -1155,6 +1137,24 @@
       "sp_atk": 40,
       "sp_def": 40,
       "speed": 40
+    }
+  },
+  {
+    "name": "Meowth",
+    "types": [
+      "Dark"
+    ],
+    "number": "0052",
+    "sub_name": "Alolan Meowth",
+    "stats": {
+      "total": 290,
+      "exp": 290,
+      "hp": 40,
+      "attack": 35,
+      "defense": 35,
+      "sp_atk": 50,
+      "sp_def": 40,
+      "speed": 90
     }
   },
   {
@@ -1417,10 +1417,10 @@
     "name": "Geodude",
     "types": [
       "Rock",
-      "Ground"
+      "Electric"
     ],
     "number": "0074",
-    "sub_name": "",
+    "sub_name": "Alolan Geodude",
     "stats": {
       "total": 300,
       "exp": 300,
@@ -1436,10 +1436,10 @@
     "name": "Geodude",
     "types": [
       "Rock",
-      "Electric"
+      "Ground"
     ],
     "number": "0074",
-    "sub_name": "Alolan Geodude",
+    "sub_name": "",
     "stats": {
       "total": 300,
       "exp": 300,
