@@ -35,54 +35,62 @@ type PlayerRequest struct {
 }
 
 type Player struct {
-    ID   int    `json:"id"`
-    Name string `json:"name"`
+	ID   int    `json:"id"`
+	Name string `json:"name"`
+}
+type PlayerResponse struct {
+	ID   int    `json:"id"`
+	Name string `json:"name"`
 }
 
 func main() {
-	connect()
+	player := connect()
 	join()
 
 	//
 	ok := battlePromt("Go to battle mode?", true)
-    if ok {
-        fmt.Println("Go to battle!")	
-    } else {
-        fmt.Println("Are you scared?")
-    }
+	if ok {
+		fmt.Println("Go to battle!")
+		fmt.Printf("Player ID: %d\n", player.ID)
+	} else {
+		fmt.Println("Are you scared?")
+		fmt.Printf("Player ID: %d\n", player.ID)
+	}
 }
 
-func connect(){
+func connect() PlayerResponse {
 	reader := bufio.NewReader(os.Stdin)
-    fmt.Print("Enter your name: ")
-    name, _ := reader.ReadString('\n')
-    name = name[:len(name)-1]
+	fmt.Print("Enter your name: ")
+	name, _ := reader.ReadString('\n')
+	name = name[:len(name)-1]
 
-	// Tạo request body
+	// Create request body
 	requestBody := PlayerRequest{
 		Name: name,
 	}
 	jsonData, _ := json.Marshal(requestBody)
 
-	// Gửi POST request
-	resp, err := http.Post("http://localhost:8080/connect","application/json",
-							bytes.NewBuffer(jsonData),)
+	// Send POST request
+	resp, err := http.Post("http://localhost:8080/connect", "application/json",
+		bytes.NewBuffer(jsonData))
 
 	if err != nil {
 		fmt.Println("Error connecting to server:", err)
-		return
+		return PlayerResponse{}
 	}
 	defer resp.Body.Close()
 
-	// Đọc response
-	var player Player
+	// Read response
+	var player PlayerResponse
 	if err := json.NewDecoder(resp.Body).Decode(&player); err != nil {
 		fmt.Println("Error reading response:", err)
-		return
+		return PlayerResponse{}
 	}
+
+	return player
 }
 
-func join(){
+func join() {
 	// Make a POST request to join the game
 	response, err := http.Post("http://localhost:8080/join", "application/json", nil)
 	if err != nil {
@@ -114,28 +122,26 @@ func join(){
 
 func battlePromt(label string, def bool) bool {
 	choices := "Y/n"
-    if !def {
-        choices = "y/N"
-    }
+	if !def {
+		choices = "y/N"
+	}
 
-    r := bufio.NewReader(os.Stdin)
-    var s string
+	r := bufio.NewReader(os.Stdin)
+	var s string
 
-    for {
-        fmt.Fprintf(os.Stderr, "%s (%s) ", label, choices)
-        s, _ = r.ReadString('\n')
-        s = strings.TrimSpace(s)
-        if s == "" {
-            return def
-        }
-        s = strings.ToLower(s)
-        if s == "y" || s == "yes" {
-            return true
-        }
-        if s == "n" || s == "no" {
-            return false
-        }
-    }
+	for {
+		fmt.Fprintf(os.Stderr, "%s (%s) ", label, choices)
+		s, _ = r.ReadString('\n')
+		s = strings.TrimSpace(s)
+		if s == "" {
+			return def
+		}
+		s = strings.ToLower(s)
+		if s == "y" || s == "yes" {
+			return true
+		}
+		if s == "n" || s == "no" {
+			return false
+		}
+	}
 }
-
-
