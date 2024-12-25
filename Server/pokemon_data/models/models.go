@@ -7,6 +7,8 @@ type Pokemon struct {
 	Number  string   `json:"number"`
 	SubName string   `json:"sub_name"`
 	Stats   Stats    `json:"stats"`
+	EV      float64  `json:"ev"`    // Effort Value (EV) for stats calculation
+	Level   int      `json:"level"` // Level of the Pokémon, starting at 0
 }
 
 type Stats struct {

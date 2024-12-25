@@ -42,16 +42,16 @@
         "Psychic"
       ],
       "number": "0065",
-      "sub_name": "Mega Alakazam",
+      "sub_name": "",
       "stats": {
-        "total": 600,
-        "exp": 600,
+        "total": 500,
+        "exp": 500,
         "hp": 55,
         "attack": 50,
-        "defense": 65,
-        "sp_atk": 175,
-        "sp_def": 105,
-        "speed": 150
+        "defense": 45,
+        "sp_atk": 135,
+        "sp_def": 95,
+        "speed": 120
       }
     }
   ],
@@ -517,45 +517,6 @@
       }
     }
   ],
-  "Dugtrio": [
-    {
-      "name": "Dugtrio",
-      "types": [
-        "Ground",
-        "Steel"
-      ],
-      "number": "0051",
-      "sub_name": "Alolan Dugtrio",
-      "stats": {
-        "total": 425,
-        "exp": 425,
-        "hp": 35,
-        "attack": 100,
-        "defense": 60,
-        "sp_atk": 50,
-        "sp_def": 70,
-        "speed": 110
-      }
-    },
-    {
-      "name": "Meowth",
-      "types": [
-        "Steel"
-      ],
-      "number": "0052",
-      "sub_name": "Galarian Meowth",
-      "stats": {
-        "total": 290,
-        "exp": 290,
-        "hp": 50,
-        "attack": 65,
-        "defense": 55,
-        "sp_atk": 40,
-        "sp_def": 40,
-        "speed": 40
-      }
-    }
-  ],
   "Gastly": [
     {
       "name": "Gastly",
@@ -840,16 +801,16 @@
         "Psychic"
       ],
       "number": "0065",
-      "sub_name": "Mega Alakazam",
+      "sub_name": "",
       "stats": {
-        "total": 600,
-        "exp": 600,
+        "total": 500,
+        "exp": 500,
         "hp": 55,
         "attack": 50,
-        "defense": 65,
-        "sp_atk": 175,
-        "sp_def": 105,
-        "speed": 150
+        "defense": 45,
+        "sp_atk": 135,
+        "sp_def": 95,
+        "speed": 120
       }
     }
   ],
@@ -1065,45 +1026,6 @@
       }
     }
   ],
-  "Pidgeot": [
-    {
-      "name": "Pidgeot",
-      "types": [
-        "Normal",
-        "Flying"
-      ],
-      "number": "0018",
-      "sub_name": "",
-      "stats": {
-        "total": 479,
-        "exp": 479,
-        "hp": 83,
-        "attack": 80,
-        "defense": 75,
-        "sp_atk": 70,
-        "sp_def": 70,
-        "speed": 101
-      }
-    },
-    {
-      "name": "Rattata",
-      "types": [
-        "Normal"
-      ],
-      "number": "0019",
-      "sub_name": "",
-      "stats": {
-        "total": 253,
-        "exp": 253,
-        "hp": 30,
-        "attack": 56,
-        "defense": 35,
-        "sp_atk": 25,
-        "sp_def": 35,
-        "speed": 72
-      }
-    }
-  ],
   "Pidgeotto": [
     {
       "name": "Pidgeotto",
@@ -1141,24 +1063,6 @@
         "sp_atk": 70,
         "sp_def": 70,
         "speed": 101
-      }
-    },
-    {
-      "name": "Rattata",
-      "types": [
-        "Normal"
-      ],
-      "number": "0019",
-      "sub_name": "",
-      "stats": {
-        "total": 253,
-        "exp": 253,
-        "hp": 30,
-        "attack": 56,
-        "defense": 35,
-        "sp_atk": 25,
-        "sp_def": 35,
-        "speed": 72
       }
     }
   ],
@@ -1243,18 +1147,19 @@
     {
       "name": "Raichu",
       "types": [
-        "Electric"
+        "Electric",
+        "Psychic"
       ],
       "number": "0026",
-      "sub_name": "",
+      "sub_name": "Alolan Raichu",
       "stats": {
         "total": 485,
         "exp": 485,
         "hp": 60,
-        "attack": 90,
-        "defense": 55,
-        "sp_atk": 90,
-        "sp_def": 80,
+        "attack": 85,
+        "defense": 50,
+        "sp_atk": 95,
+        "sp_def": 85,
         "speed": 110
       }
     }
@@ -1263,10 +1168,11 @@
     {
       "name": "Rattata",
       "types": [
+        "Dark",
         "Normal"
       ],
       "number": "0019",
-      "sub_name": "",
+      "sub_name": "Alolan Rattata",
       "stats": {
         "total": 253,
         "exp": 253,

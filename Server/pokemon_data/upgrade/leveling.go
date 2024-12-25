@@ -1,133 +1,101 @@
 package main
 
 import (
-	// Import the models package
-	models "Net-Centric--Pokemon/Server/pokemon_data/models"
 	"encoding/json"
 	"fmt"
+	"math"
 	"os"
-	"strconv"
+	"sync"
+
+	models "Net-Centric--Pokemon/Server/pokemon_data/models"
 )
 
-func findEvolutionChains(pokemons []models.Pokemon, pokemonByNumber map[string]models.Pokemon, rangeVal int) map[string][]models.Pokemon {
-	evolutionChains := make(map[string][]models.Pokemon)
-
-	for _, pokemon := range pokemons {
-		chain := []models.Pokemon{pokemon}
-		num, err := strconv.Atoi(pokemon.Number)
-		if err != nil {
-			fmt.Println("Cannot parse string to int")
-		}
-
-		for i := 1; i <= rangeVal; i++ {
-			if len(chain) >= 3 {
-				break
-			}
-			nextNumStr := fmt.Sprintf("%04d", num+i)
-			nextPokemon, ok := pokemonByNumber[nextNumStr]
-
-			// We only add pokemons which have higher number, and are the same type
-			if ok && areSameTypes(pokemon.Types, nextPokemon.Types) {
-				chain = append(chain, nextPokemon)
-			}
-		}
-		if len(chain) > 1 {
-			evolutionChains[pokemon.Name] = chain
-		}
-	}
-	return evolutionChains
+// UpdateStats adjusts Pokémon stats after leveling up.
+func UpdateStats(p *models.Pokemon) {
+	p.Stats.HP = int(math.Round(float64(p.Stats.HP) * (1 + p.EV)))
+	p.Stats.Attack = int(math.Round(float64(p.Stats.Attack) * (1 + p.EV)))
+	p.Stats.Defense = int(math.Round(float64(p.Stats.Defense) * (1 + p.EV)))
+	p.Stats.SpAtk = int(math.Round(float64(p.Stats.SpAtk) * (1 + p.EV)))
+	p.Stats.SpDef = int(math.Round(float64(p.Stats.SpDef) * (1 + p.EV)))
+	p.Stats.Total = p.Stats.HP + p.Stats.Attack + p.Stats.Defense + p.Stats.SpAtk + p.Stats.SpDef + p.Stats.Speed
 }
 
-func areSameTypes(types1, types2 []string) bool {
-	if len(types1) == 0 || len(types2) == 0 {
-		return false
-	}
-
-	// Single type: match any of types in types2
-	if len(types1) == 1 {
-		for _, typ1 := range types1 {
-			for _, typ2 := range types2 {
-				if typ1 == typ2 {
-					return true
-				}
-			}
-		}
-		return false
-	}
-
-	// Double type: match all types in types2
-	if len(types1) == 2 {
-		typeMap := make(map[string]bool)
-		for _, typ1 := range types1 {
-			typeMap[typ1] = true
-		}
-
-		for _, typ2 := range types2 {
-			if !typeMap[typ2] {
-				return false
-			}
-		}
-		return true
-	}
-
-	// Previous pokemon single, and current has two
-	if len(types1) == 1 && len(types2) == 2 {
-		for _, typ1 := range types1 {
-			typeMatch := false
-			for _, typ2 := range types2 {
-				if typ1 == typ2 {
-					typeMatch = true
-				}
-
-			}
-			if !typeMatch {
-				return false
-			}
-		}
-		return true
-	}
-
-	return false
-
+// GainExp awards experience points to a Pokémon. Thread-safe.
+func GainExp(p *models.Pokemon, exp int, mu *sync.Mutex) {
+	mu.Lock()
+	defer mu.Unlock()
+	p.Stats.Exp += exp
+	fmt.Printf("Pokemon %s gained %d exp\n", p.Name, exp)
 }
 
-func main() {
-	mainLeveling()
+// LevelUp levels up a Pokémon if enough experience is accumulated. Thread-safe.
+func LevelUp(p *models.Pokemon, mu *sync.Mutex) error {
+	mu.Lock()
+	defer mu.Unlock()
+
+	neededExp := int(math.Pow(2, float64(p.Level)) * float64(p.Stats.Total))
+	if p.Stats.Exp >= neededExp {
+		p.Level++
+		UpdateStats(p)
+		fmt.Printf("Pokemon %s leveled up to %d!\n", p.Name, p.Level)
+		return nil
+	}
+	return fmt.Errorf("not enough exp to level up, need %d, have %d", neededExp, p.Stats.Exp)
 }
 
-func mainLeveling() {
-	// Load pokemon from json file
-	pokemonData, err := os.ReadFile("./pokemon_data/pokedex_data/pokemon_types.json")
+// LoadPokemons loads Pokémon data from a JSON file.
+func LoadPokemons(filePath string) ([]models.Pokemon, map[string]models.Pokemon, error) {
+	pokemonData, err := os.ReadFile(filePath)
 	if err != nil {
-		fmt.Println("Failed to read pokemon data:", err)
-		return
+		return nil, nil, fmt.Errorf("failed to read Pokémon data: %w", err)
 	}
 
-	var limitedPokemons []models.Pokemon
-	err = json.Unmarshal(pokemonData, &limitedPokemons)
+	var pokemons []models.Pokemon
+	err = json.Unmarshal(pokemonData, &pokemons)
 	if err != nil {
-		fmt.Println("Failed to unmarshal pokemon data:", err)
-		return
+		return nil, nil, fmt.Errorf("failed to unmarshal Pokémon data: %w", err)
 	}
 
 	pokemonByNumber := make(map[string]models.Pokemon)
-
-	for _, pokemon := range limitedPokemons {
+	for _, pokemon := range pokemons {
 		pokemonByNumber[pokemon.Number] = pokemon
 	}
 
-	evolutionChains := findEvolutionChains(limitedPokemons, pokemonByNumber, 3)
+	return pokemons, pokemonByNumber, nil
+}
 
-	// Save to JSON file
-	fileEvolution, err := os.Create("./pokemon_data/pokedex_data/pokemon_evolution.json")
+// MainLeveling demonstrates leveling and evolution functionalities, supporting concurrency.
+func MainLeveling(wg *sync.WaitGroup, evolutionChains map[string][]models.Pokemon) {
+	defer wg.Done()
+
+	// Load Pokémon data
+	pokemons, _, err := LoadPokemons("./pokemon_data/pokedex_data/pokemon_types.json")
 	if err != nil {
+		fmt.Printf("Error loading Pokémon data: %v\n", err)
 		return
 	}
-	defer fileEvolution.Close()
 
-	encoderEvolution := json.NewEncoder(fileEvolution)
-	encoderEvolution.SetIndent("", "  ")
-	encoderEvolution.Encode(evolutionChains)
+	mu := &sync.Mutex{}
 
-	fmt.Println("Evolution data saved to pokemon_evolution.json")
+	// Example Pokémon for leveling and evolution
+	examplePokemon := pokemons[0]
+
+	// Simulate gaining experience and leveling up
+	go GainExp(&examplePokemon, 500, mu)
+	go func() {
+		err := LevelUp(&examplePokemon, mu)
+		if err != nil {
+			fmt.Printf("LevelUp error: %v\n", err)
+		}
+	}()
+
+	// Simulate evolution
+	go func() {
+		err := Evolve(&examplePokemon, evolutionChains)
+		if err != nil {
+			fmt.Printf("Evolution error: %v\n", err)
+		} else {
+			fmt.Printf("Evolved Pokemon: %+v\n", examplePokemon)
+		}
+	}()
 }
