@@ -211,6 +211,48 @@
     "name": "Charizard",
     "types": [
       "Fire",
+      "Dragon"
+    ],
+    "number": "0006",
+    "sub_name": "Mega Charizard X",
+    "stats": {
+      "total": 634,
+      "exp": 634,
+      "hp": 78,
+      "attack": 130,
+      "defense": 111,
+      "sp_atk": 130,
+      "sp_def": 85,
+      "speed": 100
+    },
+    "ev": 0,
+    "level": 0
+  },
+  {
+    "name": "Charizard",
+    "types": [
+      "Fire",
+      "Dragon"
+    ],
+    "number": "0006",
+    "sub_name": "Mega Charizard X",
+    "stats": {
+      "total": 634,
+      "exp": 634,
+      "hp": 78,
+      "attack": 130,
+      "defense": 111,
+      "sp_atk": 130,
+      "sp_def": 85,
+      "speed": 100
+    },
+    "ev": 0,
+    "level": 0
+  },
+  {
+    "name": "Charizard",
+    "types": [
+      "Fire",
       "Flying"
     ],
     "number": "0006",
@@ -256,48 +298,6 @@
       "Flying"
     ],
     "number": "0006",
-    "sub_name": "",
-    "stats": {
-      "total": 534,
-      "exp": 534,
-      "hp": 78,
-      "attack": 84,
-      "defense": 78,
-      "sp_atk": 109,
-      "sp_def": 85,
-      "speed": 100
-    },
-    "ev": 0,
-    "level": 0
-  },
-  {
-    "name": "Charizard",
-    "types": [
-      "Fire",
-      "Dragon"
-    ],
-    "number": "0006",
-    "sub_name": "Mega Charizard X",
-    "stats": {
-      "total": 634,
-      "exp": 634,
-      "hp": 78,
-      "attack": 130,
-      "defense": 111,
-      "sp_atk": 130,
-      "sp_def": 85,
-      "speed": 100
-    },
-    "ev": 0,
-    "level": 0
-  },
-  {
-    "name": "Charizard",
-    "types": [
-      "Fire",
-      "Flying"
-    ],
-    "number": "0006",
     "sub_name": "Mega Charizard Y",
     "stats": {
       "total": 634,
@@ -316,17 +316,17 @@
     "name": "Charizard",
     "types": [
       "Fire",
-      "Dragon"
+      "Flying"
     ],
     "number": "0006",
-    "sub_name": "Mega Charizard X",
+    "sub_name": "",
     "stats": {
-      "total": 634,
-      "exp": 634,
+      "total": 534,
+      "exp": 534,
       "hp": 78,
-      "attack": 130,
-      "defense": 111,
-      "sp_atk": 130,
+      "attack": 84,
+      "defense": 78,
+      "sp_atk": 109,
       "sp_def": 85,
       "speed": 100
     },
@@ -379,15 +379,15 @@
       "Water"
     ],
     "number": "0009",
-    "sub_name": "Mega Blastoise",
+    "sub_name": "",
     "stats": {
-      "total": 630,
-      "exp": 630,
+      "total": 530,
+      "exp": 530,
       "hp": 79,
-      "attack": 103,
-      "defense": 120,
-      "sp_atk": 135,
-      "sp_def": 115,
+      "attack": 83,
+      "defense": 100,
+      "sp_atk": 85,
+      "sp_def": 105,
       "speed": 78
     },
     "ev": 0,
@@ -399,15 +399,15 @@
       "Water"
     ],
     "number": "0009",
-    "sub_name": "",
+    "sub_name": "Mega Blastoise",
     "stats": {
-      "total": 530,
-      "exp": 530,
+      "total": 630,
+      "exp": 630,
       "hp": 79,
-      "attack": 83,
-      "defense": 100,
-      "sp_atk": 85,
-      "sp_def": 105,
+      "attack": 103,
+      "defense": 120,
+      "sp_atk": 135,
+      "sp_def": 115,
       "speed": 78
     },
     "ev": 0,
@@ -649,27 +649,6 @@
       "Flying"
     ],
     "number": "0018",
-    "sub_name": "",
-    "stats": {
-      "total": 479,
-      "exp": 479,
-      "hp": 83,
-      "attack": 80,
-      "defense": 75,
-      "sp_atk": 70,
-      "sp_def": 70,
-      "speed": 101
-    },
-    "ev": 0,
-    "level": 0
-  },
-  {
-    "name": "Pidgeot",
-    "types": [
-      "Normal",
-      "Flying"
-    ],
-    "number": "0018",
     "sub_name": "Mega Pidgeot",
     "stats": {
       "total": 579,
@@ -685,13 +664,33 @@
     "level": 0
   },
   {
+    "name": "Pidgeot",
+    "types": [
+      "Normal",
+      "Flying"
+    ],
+    "number": "0018",
+    "sub_name": "",
+    "stats": {
+      "total": 479,
+      "exp": 479,
+      "hp": 83,
+      "attack": 80,
+      "defense": 75,
+      "sp_atk": 70,
+      "sp_def": 70,
+      "speed": 101
+    },
+    "ev": 0,
+    "level": 0
+  },
+  {
     "name": "Rattata",
     "types": [
-      "Dark",
       "Normal"
     ],
     "number": "0019",
-    "sub_name": "Alolan Rattata",
+    "sub_name": "",
     "stats": {
       "total": 253,
       "exp": 253,
@@ -708,10 +707,11 @@
   {
     "name": "Rattata",
     "types": [
+      "Dark",
       "Normal"
     ],
     "number": "0019",
-    "sub_name": "",
+    "sub_name": "Alolan Rattata",
     "stats": {
       "total": 253,
       "exp": 253,
@@ -851,6 +851,48 @@
   {
     "name": "Sandshrew",
     "types": [
+      "Ice",
+      "Steel"
+    ],
+    "number": "0027",
+    "sub_name": "Alolan Sandshrew",
+    "stats": {
+      "total": 300,
+      "exp": 300,
+      "hp": 50,
+      "attack": 75,
+      "defense": 90,
+      "sp_atk": 10,
+      "sp_def": 35,
+      "speed": 40
+    },
+    "ev": 0,
+    "level": 0
+  },
+  {
+    "name": "Sandshrew",
+    "types": [
+      "Ice",
+      "Steel"
+    ],
+    "number": "0027",
+    "sub_name": "Alolan Sandshrew",
+    "stats": {
+      "total": 300,
+      "exp": 300,
+      "hp": 50,
+      "attack": 75,
+      "defense": 90,
+      "sp_atk": 10,
+      "sp_def": 35,
+      "speed": 40
+    },
+    "ev": 0,
+    "level": 0
+  },
+  {
+    "name": "Sandshrew",
+    "types": [
       "Ground"
     ],
     "number": "0027",
@@ -863,48 +905,6 @@
       "defense": 85,
       "sp_atk": 20,
       "sp_def": 30,
-      "speed": 40
-    },
-    "ev": 0,
-    "level": 0
-  },
-  {
-    "name": "Sandshrew",
-    "types": [
-      "Ice",
-      "Steel"
-    ],
-    "number": "0027",
-    "sub_name": "Alolan Sandshrew",
-    "stats": {
-      "total": 300,
-      "exp": 300,
-      "hp": 50,
-      "attack": 75,
-      "defense": 90,
-      "sp_atk": 10,
-      "sp_def": 35,
-      "speed": 40
-    },
-    "ev": 0,
-    "level": 0
-  },
-  {
-    "name": "Sandshrew",
-    "types": [
-      "Ice",
-      "Steel"
-    ],
-    "number": "0027",
-    "sub_name": "Alolan Sandshrew",
-    "stats": {
-      "total": 300,
-      "exp": 300,
-      "hp": 50,
-      "attack": 75,
-      "defense": 90,
-      "sp_atk": 10,
-      "sp_def": 35,
       "speed": 40
     },
     "ev": 0,
@@ -1719,16 +1719,16 @@
       "Poison"
     ],
     "number": "0094",
-    "sub_name": "",
+    "sub_name": "Mega Gengar",
     "stats": {
-      "total": 500,
-      "exp": 500,
+      "total": 600,
+      "exp": 600,
       "hp": 60,
       "attack": 65,
-      "defense": 60,
-      "sp_atk": 130,
-      "sp_def": 75,
-      "speed": 110
+      "defense": 80,
+      "sp_atk": 170,
+      "sp_def": 95,
+      "speed": 130
     },
     "ev": 0,
     "level": 0
@@ -1740,16 +1740,16 @@
       "Poison"
     ],
     "number": "0094",
-    "sub_name": "Mega Gengar",
+    "sub_name": "",
     "stats": {
-      "total": 600,
-      "exp": 600,
+      "total": 500,
+      "exp": 500,
       "hp": 60,
       "attack": 65,
-      "defense": 80,
-      "sp_atk": 170,
-      "sp_def": 95,
-      "speed": 130
+      "defense": 60,
+      "sp_atk": 130,
+      "sp_def": 75,
+      "speed": 110
     },
     "ev": 0,
     "level": 0
