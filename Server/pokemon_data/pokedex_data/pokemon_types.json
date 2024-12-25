@@ -90,27 +90,6 @@
       "Poison"
     ],
     "number": "0003",
-    "sub_name": "",
-    "stats": {
-      "total": 525,
-      "exp": 525,
-      "hp": 80,
-      "attack": 82,
-      "defense": 83,
-      "sp_atk": 100,
-      "sp_def": 100,
-      "speed": 80
-    },
-    "ev": 0,
-    "level": 0
-  },
-  {
-    "name": "Venusaur",
-    "types": [
-      "Grass",
-      "Poison"
-    ],
-    "number": "0003",
     "sub_name": "Mega Venusaur",
     "stats": {
       "total": 625,
@@ -162,6 +141,27 @@
       "defense": 123,
       "sp_atk": 122,
       "sp_def": 120,
+      "speed": 80
+    },
+    "ev": 0,
+    "level": 0
+  },
+  {
+    "name": "Venusaur",
+    "types": [
+      "Grass",
+      "Poison"
+    ],
+    "number": "0003",
+    "sub_name": "",
+    "stats": {
+      "total": 525,
+      "exp": 525,
+      "hp": 80,
+      "attack": 82,
+      "defense": 83,
+      "sp_atk": 100,
+      "sp_def": 100,
       "speed": 80
     },
     "ev": 0,
@@ -232,6 +232,90 @@
     "name": "Charizard",
     "types": [
       "Fire",
+      "Flying"
+    ],
+    "number": "0006",
+    "sub_name": "Mega Charizard Y",
+    "stats": {
+      "total": 634,
+      "exp": 634,
+      "hp": 78,
+      "attack": 104,
+      "defense": 78,
+      "sp_atk": 159,
+      "sp_def": 115,
+      "speed": 100
+    },
+    "ev": 0,
+    "level": 0
+  },
+  {
+    "name": "Charizard",
+    "types": [
+      "Fire",
+      "Flying"
+    ],
+    "number": "0006",
+    "sub_name": "",
+    "stats": {
+      "total": 534,
+      "exp": 534,
+      "hp": 78,
+      "attack": 84,
+      "defense": 78,
+      "sp_atk": 109,
+      "sp_def": 85,
+      "speed": 100
+    },
+    "ev": 0,
+    "level": 0
+  },
+  {
+    "name": "Charizard",
+    "types": [
+      "Fire",
+      "Flying"
+    ],
+    "number": "0006",
+    "sub_name": "",
+    "stats": {
+      "total": 534,
+      "exp": 534,
+      "hp": 78,
+      "attack": 84,
+      "defense": 78,
+      "sp_atk": 109,
+      "sp_def": 85,
+      "speed": 100
+    },
+    "ev": 0,
+    "level": 0
+  },
+  {
+    "name": "Charizard",
+    "types": [
+      "Fire",
+      "Flying"
+    ],
+    "number": "0006",
+    "sub_name": "Mega Charizard Y",
+    "stats": {
+      "total": 634,
+      "exp": 634,
+      "hp": 78,
+      "attack": 104,
+      "defense": 78,
+      "sp_atk": 159,
+      "sp_def": 115,
+      "speed": 100
+    },
+    "ev": 0,
+    "level": 0
+  },
+  {
+    "name": "Charizard",
+    "types": [
+      "Fire",
       "Dragon"
     ],
     "number": "0006",
@@ -243,90 +327,6 @@
       "attack": 130,
       "defense": 111,
       "sp_atk": 130,
-      "sp_def": 85,
-      "speed": 100
-    },
-    "ev": 0,
-    "level": 0
-  },
-  {
-    "name": "Charizard",
-    "types": [
-      "Fire",
-      "Flying"
-    ],
-    "number": "0006",
-    "sub_name": "",
-    "stats": {
-      "total": 534,
-      "exp": 534,
-      "hp": 78,
-      "attack": 84,
-      "defense": 78,
-      "sp_atk": 109,
-      "sp_def": 85,
-      "speed": 100
-    },
-    "ev": 0,
-    "level": 0
-  },
-  {
-    "name": "Charizard",
-    "types": [
-      "Fire",
-      "Flying"
-    ],
-    "number": "0006",
-    "sub_name": "Mega Charizard Y",
-    "stats": {
-      "total": 634,
-      "exp": 634,
-      "hp": 78,
-      "attack": 104,
-      "defense": 78,
-      "sp_atk": 159,
-      "sp_def": 115,
-      "speed": 100
-    },
-    "ev": 0,
-    "level": 0
-  },
-  {
-    "name": "Charizard",
-    "types": [
-      "Fire",
-      "Flying"
-    ],
-    "number": "0006",
-    "sub_name": "Mega Charizard Y",
-    "stats": {
-      "total": 634,
-      "exp": 634,
-      "hp": 78,
-      "attack": 104,
-      "defense": 78,
-      "sp_atk": 159,
-      "sp_def": 115,
-      "speed": 100
-    },
-    "ev": 0,
-    "level": 0
-  },
-  {
-    "name": "Charizard",
-    "types": [
-      "Fire",
-      "Flying"
-    ],
-    "number": "0006",
-    "sub_name": "",
-    "stats": {
-      "total": 534,
-      "exp": 534,
-      "hp": 78,
-      "attack": 84,
-      "defense": 78,
-      "sp_atk": 109,
       "sp_def": 85,
       "speed": 100
     },
@@ -379,15 +379,15 @@
       "Water"
     ],
     "number": "0009",
-    "sub_name": "",
+    "sub_name": "Mega Blastoise",
     "stats": {
-      "total": 530,
-      "exp": 530,
+      "total": 630,
+      "exp": 630,
       "hp": 79,
-      "attack": 83,
-      "defense": 100,
-      "sp_atk": 85,
-      "sp_def": 105,
+      "attack": 103,
+      "defense": 120,
+      "sp_atk": 135,
+      "sp_def": 115,
       "speed": 78
     },
     "ev": 0,
@@ -399,15 +399,15 @@
       "Water"
     ],
     "number": "0009",
-    "sub_name": "Mega Blastoise",
+    "sub_name": "",
     "stats": {
-      "total": 630,
-      "exp": 630,
+      "total": 530,
+      "exp": 530,
       "hp": 79,
-      "attack": 103,
-      "defense": 120,
-      "sp_atk": 135,
-      "sp_def": 115,
+      "attack": 83,
+      "defense": 100,
+      "sp_atk": 85,
+      "sp_def": 105,
       "speed": 78
     },
     "ev": 0,
@@ -810,6 +810,26 @@
   {
     "name": "Raichu",
     "types": [
+      "Electric"
+    ],
+    "number": "0026",
+    "sub_name": "",
+    "stats": {
+      "total": 485,
+      "exp": 485,
+      "hp": 60,
+      "attack": 90,
+      "defense": 55,
+      "sp_atk": 90,
+      "sp_def": 80,
+      "speed": 110
+    },
+    "ev": 0,
+    "level": 0
+  },
+  {
+    "name": "Raichu",
+    "types": [
       "Electric",
       "Psychic"
     ],
@@ -823,26 +843,6 @@
       "defense": 50,
       "sp_atk": 95,
       "sp_def": 85,
-      "speed": 110
-    },
-    "ev": 0,
-    "level": 0
-  },
-  {
-    "name": "Raichu",
-    "types": [
-      "Electric"
-    ],
-    "number": "0026",
-    "sub_name": "",
-    "stats": {
-      "total": 485,
-      "exp": 485,
-      "hp": 60,
-      "attack": 90,
-      "defense": 55,
-      "sp_atk": 90,
-      "sp_def": 80,
       "speed": 110
     },
     "ev": 0,
@@ -913,26 +913,6 @@
   {
     "name": "Sandslash",
     "types": [
-      "Ground"
-    ],
-    "number": "0028",
-    "sub_name": "",
-    "stats": {
-      "total": 450,
-      "exp": 450,
-      "hp": 75,
-      "attack": 100,
-      "defense": 110,
-      "sp_atk": 45,
-      "sp_def": 55,
-      "speed": 65
-    },
-    "ev": 0,
-    "level": 0
-  },
-  {
-    "name": "Sandslash",
-    "types": [
       "Ice",
       "Steel"
     ],
@@ -946,6 +926,26 @@
       "defense": 120,
       "sp_atk": 25,
       "sp_def": 65,
+      "speed": 65
+    },
+    "ev": 0,
+    "level": 0
+  },
+  {
+    "name": "Sandslash",
+    "types": [
+      "Ground"
+    ],
+    "number": "0028",
+    "sub_name": "",
+    "stats": {
+      "total": 450,
+      "exp": 450,
+      "hp": 75,
+      "attack": 100,
+      "defense": 110,
+      "sp_atk": 45,
+      "sp_def": 55,
       "speed": 65
     },
     "ev": 0,
@@ -1244,26 +1244,6 @@
   {
     "name": "Meowth",
     "types": [
-      "Steel"
-    ],
-    "number": "0052",
-    "sub_name": "Galarian Meowth",
-    "stats": {
-      "total": 290,
-      "exp": 290,
-      "hp": 50,
-      "attack": 65,
-      "defense": 55,
-      "sp_atk": 40,
-      "sp_def": 40,
-      "speed": 40
-    },
-    "ev": 0,
-    "level": 0
-  },
-  {
-    "name": "Meowth",
-    "types": [
       "Dark"
     ],
     "number": "0052",
@@ -1277,6 +1257,26 @@
       "sp_atk": 50,
       "sp_def": 40,
       "speed": 90
+    },
+    "ev": 0,
+    "level": 0
+  },
+  {
+    "name": "Meowth",
+    "types": [
+      "Steel"
+    ],
+    "number": "0052",
+    "sub_name": "Galarian Meowth",
+    "stats": {
+      "total": 290,
+      "exp": 290,
+      "hp": 50,
+      "attack": 65,
+      "defense": 55,
+      "sp_atk": 40,
+      "sp_def": 40,
+      "speed": 40
     },
     "ev": 0,
     "level": 0
@@ -1470,26 +1470,6 @@
       "Psychic"
     ],
     "number": "0065",
-    "sub_name": "",
-    "stats": {
-      "total": 500,
-      "exp": 500,
-      "hp": 55,
-      "attack": 50,
-      "defense": 45,
-      "sp_atk": 135,
-      "sp_def": 95,
-      "speed": 120
-    },
-    "ev": 0,
-    "level": 0
-  },
-  {
-    "name": "Alakazam",
-    "types": [
-      "Psychic"
-    ],
-    "number": "0065",
     "sub_name": "Mega Alakazam",
     "stats": {
       "total": 600,
@@ -1500,6 +1480,26 @@
       "sp_atk": 175,
       "sp_def": 105,
       "speed": 150
+    },
+    "ev": 0,
+    "level": 0
+  },
+  {
+    "name": "Alakazam",
+    "types": [
+      "Psychic"
+    ],
+    "number": "0065",
+    "sub_name": "",
+    "stats": {
+      "total": 500,
+      "exp": 500,
+      "hp": 55,
+      "attack": 50,
+      "defense": 45,
+      "sp_atk": 135,
+      "sp_def": 95,
+      "speed": 120
     },
     "ev": 0,
     "level": 0
@@ -1569,10 +1569,10 @@
     "name": "Geodude",
     "types": [
       "Rock",
-      "Electric"
+      "Ground"
     ],
     "number": "0074",
-    "sub_name": "Alolan Geodude",
+    "sub_name": "",
     "stats": {
       "total": 300,
       "exp": 300,
@@ -1590,10 +1590,10 @@
     "name": "Geodude",
     "types": [
       "Rock",
-      "Ground"
+      "Electric"
     ],
     "number": "0074",
-    "sub_name": "",
+    "sub_name": "Alolan Geodude",
     "stats": {
       "total": 300,
       "exp": 300,
@@ -1719,16 +1719,16 @@
       "Poison"
     ],
     "number": "0094",
-    "sub_name": "Mega Gengar",
+    "sub_name": "",
     "stats": {
-      "total": 600,
-      "exp": 600,
+      "total": 500,
+      "exp": 500,
       "hp": 60,
       "attack": 65,
-      "defense": 80,
-      "sp_atk": 170,
-      "sp_def": 95,
-      "speed": 130
+      "defense": 60,
+      "sp_atk": 130,
+      "sp_def": 75,
+      "speed": 110
     },
     "ev": 0,
     "level": 0
@@ -1740,16 +1740,16 @@
       "Poison"
     ],
     "number": "0094",
-    "sub_name": "",
+    "sub_name": "Mega Gengar",
     "stats": {
-      "total": 500,
-      "exp": 500,
+      "total": 600,
+      "exp": 600,
       "hp": 60,
       "attack": 65,
-      "defense": 60,
-      "sp_atk": 130,
-      "sp_def": 75,
-      "speed": 110
+      "defense": 80,
+      "sp_atk": 170,
+      "sp_def": 95,
+      "speed": 130
     },
     "ev": 0,
     "level": 0
