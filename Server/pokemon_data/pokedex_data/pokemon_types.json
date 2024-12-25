@@ -16,7 +16,9 @@
       "sp_atk": 65,
       "sp_def": 65,
       "speed": 45
-    }
+    },
+    "ev": 0,
+    "level": 0
   },
   {
     "name": "Bulbasaur",
@@ -35,7 +37,9 @@
       "sp_atk": 65,
       "sp_def": 65,
       "speed": 45
-    }
+    },
+    "ev": 0,
+    "level": 0
   },
   {
     "name": "Ivysaur",
@@ -54,7 +58,9 @@
       "sp_atk": 80,
       "sp_def": 80,
       "speed": 60
-    }
+    },
+    "ev": 0,
+    "level": 0
   },
   {
     "name": "Ivysaur",
@@ -73,7 +79,9 @@
       "sp_atk": 80,
       "sp_def": 80,
       "speed": 60
-    }
+    },
+    "ev": 0,
+    "level": 0
   },
   {
     "name": "Venusaur",
@@ -92,7 +100,9 @@
       "sp_atk": 122,
       "sp_def": 120,
       "speed": 80
-    }
+    },
+    "ev": 0,
+    "level": 0
   },
   {
     "name": "Venusaur",
@@ -111,7 +121,9 @@
       "sp_atk": 100,
       "sp_def": 100,
       "speed": 80
-    }
+    },
+    "ev": 0,
+    "level": 0
   },
   {
     "name": "Venusaur",
@@ -130,7 +142,9 @@
       "sp_atk": 122,
       "sp_def": 120,
       "speed": 80
-    }
+    },
+    "ev": 0,
+    "level": 0
   },
   {
     "name": "Venusaur",
@@ -149,7 +163,9 @@
       "sp_atk": 100,
       "sp_def": 100,
       "speed": 80
-    }
+    },
+    "ev": 0,
+    "level": 0
   },
   {
     "name": "Charmander",
@@ -167,7 +183,9 @@
       "sp_atk": 60,
       "sp_def": 50,
       "speed": 65
-    }
+    },
+    "ev": 0,
+    "level": 0
   },
   {
     "name": "Charmeleon",
@@ -185,7 +203,9 @@
       "sp_atk": 80,
       "sp_def": 65,
       "speed": 80
-    }
+    },
+    "ev": 0,
+    "level": 0
   },
   {
     "name": "Charizard",
@@ -204,7 +224,9 @@
       "sp_atk": 130,
       "sp_def": 85,
       "speed": 100
-    }
+    },
+    "ev": 0,
+    "level": 0
   },
   {
     "name": "Charizard",
@@ -223,7 +245,72 @@
       "sp_atk": 159,
       "sp_def": 115,
       "speed": 100
-    }
+    },
+    "ev": 0,
+    "level": 0
+  },
+  {
+    "name": "Charizard",
+    "types": [
+      "Fire",
+      "Flying"
+    ],
+    "number": "0006",
+    "sub_name": "",
+    "stats": {
+      "total": 534,
+      "exp": 534,
+      "hp": 78,
+      "attack": 84,
+      "defense": 78,
+      "sp_atk": 109,
+      "sp_def": 85,
+      "speed": 100
+    },
+    "ev": 0,
+    "level": 0
+  },
+  {
+    "name": "Charizard",
+    "types": [
+      "Fire",
+      "Flying"
+    ],
+    "number": "0006",
+    "sub_name": "",
+    "stats": {
+      "total": 534,
+      "exp": 534,
+      "hp": 78,
+      "attack": 84,
+      "defense": 78,
+      "sp_atk": 109,
+      "sp_def": 85,
+      "speed": 100
+    },
+    "ev": 0,
+    "level": 0
+  },
+  {
+    "name": "Charizard",
+    "types": [
+      "Fire",
+      "Flying"
+    ],
+    "number": "0006",
+    "sub_name": "Mega Charizard Y",
+    "stats": {
+      "total": 634,
+      "exp": 634,
+      "hp": 78,
+      "attack": 104,
+      "defense": 78,
+      "sp_atk": 159,
+      "sp_def": 115,
+      "speed": 100
+    },
+    "ev": 0,
+    "level": 0
   },
   {
     "name": "Charizard",
@@ -242,64 +329,9 @@
       "sp_atk": 130,
       "sp_def": 85,
       "speed": 100
-    }
-  },
-  {
-    "name": "Charizard",
-    "types": [
-      "Fire",
-      "Flying"
-    ],
-    "number": "0006",
-    "sub_name": "",
-    "stats": {
-      "total": 534,
-      "exp": 534,
-      "hp": 78,
-      "attack": 84,
-      "defense": 78,
-      "sp_atk": 109,
-      "sp_def": 85,
-      "speed": 100
-    }
-  },
-  {
-    "name": "Charizard",
-    "types": [
-      "Fire",
-      "Flying"
-    ],
-    "number": "0006",
-    "sub_name": "",
-    "stats": {
-      "total": 534,
-      "exp": 534,
-      "hp": 78,
-      "attack": 84,
-      "defense": 78,
-      "sp_atk": 109,
-      "sp_def": 85,
-      "speed": 100
-    }
-  },
-  {
-    "name": "Charizard",
-    "types": [
-      "Fire",
-      "Flying"
-    ],
-    "number": "0006",
-    "sub_name": "Mega Charizard Y",
-    "stats": {
-      "total": 634,
-      "exp": 634,
-      "hp": 78,
-      "attack": 104,
-      "defense": 78,
-      "sp_atk": 159,
-      "sp_def": 115,
-      "speed": 100
-    }
+    },
+    "ev": 0,
+    "level": 0
   },
   {
     "name": "Squirtle",
@@ -317,7 +349,9 @@
       "sp_atk": 50,
       "sp_def": 64,
       "speed": 43
-    }
+    },
+    "ev": 0,
+    "level": 0
   },
   {
     "name": "Wartortle",
@@ -335,7 +369,9 @@
       "sp_atk": 65,
       "sp_def": 80,
       "speed": 58
-    }
+    },
+    "ev": 0,
+    "level": 0
   },
   {
     "name": "Blastoise",
@@ -353,7 +389,9 @@
       "sp_atk": 135,
       "sp_def": 115,
       "speed": 78
-    }
+    },
+    "ev": 0,
+    "level": 0
   },
   {
     "name": "Blastoise",
@@ -371,7 +409,9 @@
       "sp_atk": 85,
       "sp_def": 105,
       "speed": 78
-    }
+    },
+    "ev": 0,
+    "level": 0
   },
   {
     "name": "Caterpie",
@@ -389,7 +429,9 @@
       "sp_atk": 20,
       "sp_def": 20,
       "speed": 45
-    }
+    },
+    "ev": 0,
+    "level": 0
   },
   {
     "name": "Metapod",
@@ -407,7 +449,9 @@
       "sp_atk": 25,
       "sp_def": 25,
       "speed": 30
-    }
+    },
+    "ev": 0,
+    "level": 0
   },
   {
     "name": "Butterfree",
@@ -426,7 +470,9 @@
       "sp_atk": 90,
       "sp_def": 80,
       "speed": 70
-    }
+    },
+    "ev": 0,
+    "level": 0
   },
   {
     "name": "Butterfree",
@@ -445,7 +491,9 @@
       "sp_atk": 90,
       "sp_def": 80,
       "speed": 70
-    }
+    },
+    "ev": 0,
+    "level": 0
   },
   {
     "name": "Weedle",
@@ -464,7 +512,9 @@
       "sp_atk": 20,
       "sp_def": 20,
       "speed": 50
-    }
+    },
+    "ev": 0,
+    "level": 0
   },
   {
     "name": "Weedle",
@@ -483,7 +533,9 @@
       "sp_atk": 20,
       "sp_def": 20,
       "speed": 50
-    }
+    },
+    "ev": 0,
+    "level": 0
   },
   {
     "name": "Kakuna",
@@ -502,7 +554,9 @@
       "sp_atk": 25,
       "sp_def": 25,
       "speed": 35
-    }
+    },
+    "ev": 0,
+    "level": 0
   },
   {
     "name": "Pidgey",
@@ -521,7 +575,9 @@
       "sp_atk": 35,
       "sp_def": 35,
       "speed": 56
-    }
+    },
+    "ev": 0,
+    "level": 0
   },
   {
     "name": "Pidgey",
@@ -540,7 +596,9 @@
       "sp_atk": 35,
       "sp_def": 35,
       "speed": 56
-    }
+    },
+    "ev": 0,
+    "level": 0
   },
   {
     "name": "Pidgeotto",
@@ -559,7 +617,9 @@
       "sp_atk": 50,
       "sp_def": 50,
       "speed": 71
-    }
+    },
+    "ev": 0,
+    "level": 0
   },
   {
     "name": "Pidgeotto",
@@ -578,7 +638,9 @@
       "sp_atk": 50,
       "sp_def": 50,
       "speed": 71
-    }
+    },
+    "ev": 0,
+    "level": 0
   },
   {
     "name": "Pidgeot",
@@ -597,7 +659,9 @@
       "sp_atk": 135,
       "sp_def": 80,
       "speed": 121
-    }
+    },
+    "ev": 0,
+    "level": 0
   },
   {
     "name": "Pidgeot",
@@ -616,7 +680,9 @@
       "sp_atk": 70,
       "sp_def": 70,
       "speed": 101
-    }
+    },
+    "ev": 0,
+    "level": 0
   },
   {
     "name": "Rattata",
@@ -634,7 +700,9 @@
       "sp_atk": 25,
       "sp_def": 35,
       "speed": 72
-    }
+    },
+    "ev": 0,
+    "level": 0
   },
   {
     "name": "Rattata",
@@ -653,7 +721,9 @@
       "sp_atk": 25,
       "sp_def": 35,
       "speed": 72
-    }
+    },
+    "ev": 0,
+    "level": 0
   },
   {
     "name": "Raticate",
@@ -672,7 +742,9 @@
       "sp_atk": 40,
       "sp_def": 80,
       "speed": 77
-    }
+    },
+    "ev": 0,
+    "level": 0
   },
   {
     "name": "Pikachu",
@@ -690,7 +762,9 @@
       "sp_atk": 75,
       "sp_def": 60,
       "speed": 120
-    }
+    },
+    "ev": 0,
+    "level": 0
   },
   {
     "name": "Pikachu",
@@ -708,7 +782,30 @@
       "sp_atk": 50,
       "sp_def": 50,
       "speed": 90
-    }
+    },
+    "ev": 0,
+    "level": 0
+  },
+  {
+    "name": "Raichu",
+    "types": [
+      "Electric",
+      "Psychic"
+    ],
+    "number": "0026",
+    "sub_name": "Alolan Raichu",
+    "stats": {
+      "total": 485,
+      "exp": 485,
+      "hp": 60,
+      "attack": 85,
+      "defense": 50,
+      "sp_atk": 95,
+      "sp_def": 85,
+      "speed": 110
+    },
+    "ev": 0,
+    "level": 0
   },
   {
     "name": "Raichu",
@@ -726,7 +823,9 @@
       "sp_atk": 90,
       "sp_def": 80,
       "speed": 110
-    }
+    },
+    "ev": 0,
+    "level": 0
   },
   {
     "name": "Raichu",
@@ -745,26 +844,9 @@
       "sp_atk": 95,
       "sp_def": 85,
       "speed": 110
-    }
-  },
-  {
-    "name": "Raichu",
-    "types": [
-      "Electric",
-      "Psychic"
-    ],
-    "number": "0026",
-    "sub_name": "Alolan Raichu",
-    "stats": {
-      "total": 485,
-      "exp": 485,
-      "hp": 60,
-      "attack": 85,
-      "defense": 50,
-      "sp_atk": 95,
-      "sp_def": 85,
-      "speed": 110
-    }
+    },
+    "ev": 0,
+    "level": 0
   },
   {
     "name": "Sandshrew",
@@ -783,7 +865,9 @@
       "sp_atk": 10,
       "sp_def": 35,
       "speed": 40
-    }
+    },
+    "ev": 0,
+    "level": 0
   },
   {
     "name": "Sandshrew",
@@ -802,7 +886,9 @@
       "sp_atk": 10,
       "sp_def": 35,
       "speed": 40
-    }
+    },
+    "ev": 0,
+    "level": 0
   },
   {
     "name": "Sandshrew",
@@ -820,7 +906,9 @@
       "sp_atk": 20,
       "sp_def": 30,
       "speed": 40
-    }
+    },
+    "ev": 0,
+    "level": 0
   },
   {
     "name": "Sandslash",
@@ -839,26 +927,9 @@
       "sp_atk": 25,
       "sp_def": 65,
       "speed": 65
-    }
-  },
-  {
-    "name": "Sandslash",
-    "types": [
-      "Ice",
-      "Steel"
-    ],
-    "number": "0028",
-    "sub_name": "Alolan Sandslash",
-    "stats": {
-      "total": 450,
-      "exp": 450,
-      "hp": 75,
-      "attack": 100,
-      "defense": 120,
-      "sp_atk": 25,
-      "sp_def": 65,
-      "speed": 65
-    }
+    },
+    "ev": 0,
+    "level": 0
   },
   {
     "name": "Sandslash",
@@ -876,7 +947,30 @@
       "sp_atk": 45,
       "sp_def": 55,
       "speed": 65
-    }
+    },
+    "ev": 0,
+    "level": 0
+  },
+  {
+    "name": "Sandslash",
+    "types": [
+      "Ice",
+      "Steel"
+    ],
+    "number": "0028",
+    "sub_name": "Alolan Sandslash",
+    "stats": {
+      "total": 450,
+      "exp": 450,
+      "hp": 75,
+      "attack": 100,
+      "defense": 120,
+      "sp_atk": 25,
+      "sp_def": 65,
+      "speed": 65
+    },
+    "ev": 0,
+    "level": 0
   },
   {
     "name": "Nidoqueen",
@@ -895,7 +989,9 @@
       "sp_atk": 75,
       "sp_def": 85,
       "speed": 76
-    }
+    },
+    "ev": 0,
+    "level": 0
   },
   {
     "name": "Nidoking",
@@ -914,7 +1010,9 @@
       "sp_atk": 85,
       "sp_def": 75,
       "speed": 85
-    }
+    },
+    "ev": 0,
+    "level": 0
   },
   {
     "name": "Clefairy",
@@ -932,7 +1030,9 @@
       "sp_atk": 60,
       "sp_def": 65,
       "speed": 35
-    }
+    },
+    "ev": 0,
+    "level": 0
   },
   {
     "name": "Clefable",
@@ -950,7 +1050,9 @@
       "sp_atk": 95,
       "sp_def": 90,
       "speed": 60
-    }
+    },
+    "ev": 0,
+    "level": 0
   },
   {
     "name": "Vulpix",
@@ -968,7 +1070,9 @@
       "sp_atk": 50,
       "sp_def": 65,
       "speed": 65
-    }
+    },
+    "ev": 0,
+    "level": 0
   },
   {
     "name": "Ninetales",
@@ -987,7 +1091,9 @@
       "sp_atk": 81,
       "sp_def": 100,
       "speed": 109
-    }
+    },
+    "ev": 0,
+    "level": 0
   },
   {
     "name": "Ninetales",
@@ -1006,7 +1112,9 @@
       "sp_atk": 81,
       "sp_def": 100,
       "speed": 109
-    }
+    },
+    "ev": 0,
+    "level": 0
   },
   {
     "name": "Jigglypuff",
@@ -1025,7 +1133,9 @@
       "sp_atk": 45,
       "sp_def": 25,
       "speed": 20
-    }
+    },
+    "ev": 0,
+    "level": 0
   },
   {
     "name": "Wigglytuff",
@@ -1044,7 +1154,9 @@
       "sp_atk": 85,
       "sp_def": 50,
       "speed": 45
-    }
+    },
+    "ev": 0,
+    "level": 0
   },
   {
     "name": "Oddish",
@@ -1063,7 +1175,29 @@
       "sp_atk": 75,
       "sp_def": 65,
       "speed": 30
-    }
+    },
+    "ev": 0,
+    "level": 0
+  },
+  {
+    "name": "Diglett",
+    "types": [
+      "Ground"
+    ],
+    "number": "0050",
+    "sub_name": "",
+    "stats": {
+      "total": 265,
+      "exp": 265,
+      "hp": 10,
+      "attack": 55,
+      "defense": 25,
+      "sp_atk": 35,
+      "sp_def": 45,
+      "speed": 95
+    },
+    "ev": 0,
+    "level": 0
   },
   {
     "name": "Diglett",
@@ -1082,25 +1216,9 @@
       "sp_atk": 35,
       "sp_def": 45,
       "speed": 90
-    }
-  },
-  {
-    "name": "Diglett",
-    "types": [
-      "Ground"
-    ],
-    "number": "0050",
-    "sub_name": "",
-    "stats": {
-      "total": 265,
-      "exp": 265,
-      "hp": 10,
-      "attack": 55,
-      "defense": 25,
-      "sp_atk": 35,
-      "sp_def": 45,
-      "speed": 95
-    }
+    },
+    "ev": 0,
+    "level": 0
   },
   {
     "name": "Dugtrio",
@@ -1119,7 +1237,9 @@
       "sp_atk": 50,
       "sp_def": 70,
       "speed": 110
-    }
+    },
+    "ev": 0,
+    "level": 0
   },
   {
     "name": "Meowth",
@@ -1137,7 +1257,9 @@
       "sp_atk": 50,
       "sp_def": 40,
       "speed": 90
-    }
+    },
+    "ev": 0,
+    "level": 0
   },
   {
     "name": "Meowth",
@@ -1155,7 +1277,9 @@
       "sp_atk": 40,
       "sp_def": 40,
       "speed": 40
-    }
+    },
+    "ev": 0,
+    "level": 0
   },
   {
     "name": "Persian",
@@ -1173,7 +1297,9 @@
       "sp_atk": 75,
       "sp_def": 65,
       "speed": 115
-    }
+    },
+    "ev": 0,
+    "level": 0
   },
   {
     "name": "Psyduck",
@@ -1191,7 +1317,9 @@
       "sp_atk": 65,
       "sp_def": 50,
       "speed": 55
-    }
+    },
+    "ev": 0,
+    "level": 0
   },
   {
     "name": "Mankey",
@@ -1209,7 +1337,9 @@
       "sp_atk": 35,
       "sp_def": 45,
       "speed": 70
-    }
+    },
+    "ev": 0,
+    "level": 0
   },
   {
     "name": "Primeape",
@@ -1227,7 +1357,9 @@
       "sp_atk": 60,
       "sp_def": 70,
       "speed": 95
-    }
+    },
+    "ev": 0,
+    "level": 0
   },
   {
     "name": "Growlithe",
@@ -1246,7 +1378,9 @@
       "sp_atk": 65,
       "sp_def": 50,
       "speed": 55
-    }
+    },
+    "ev": 0,
+    "level": 0
   },
   {
     "name": "Arcanine",
@@ -1265,7 +1399,9 @@
       "sp_atk": 95,
       "sp_def": 80,
       "speed": 90
-    }
+    },
+    "ev": 0,
+    "level": 0
   },
   {
     "name": "Poliwrath",
@@ -1284,7 +1420,9 @@
       "sp_atk": 70,
       "sp_def": 90,
       "speed": 70
-    }
+    },
+    "ev": 0,
+    "level": 0
   },
   {
     "name": "Abra",
@@ -1302,7 +1440,9 @@
       "sp_atk": 105,
       "sp_def": 55,
       "speed": 90
-    }
+    },
+    "ev": 0,
+    "level": 0
   },
   {
     "name": "Kadabra",
@@ -1320,25 +1460,9 @@
       "sp_atk": 120,
       "sp_def": 70,
       "speed": 105
-    }
-  },
-  {
-    "name": "Alakazam",
-    "types": [
-      "Psychic"
-    ],
-    "number": "0065",
-    "sub_name": "",
-    "stats": {
-      "total": 500,
-      "exp": 500,
-      "hp": 55,
-      "attack": 50,
-      "defense": 45,
-      "sp_atk": 135,
-      "sp_def": 95,
-      "speed": 120
-    }
+    },
+    "ev": 0,
+    "level": 0
   },
   {
     "name": "Alakazam",
@@ -1356,7 +1480,29 @@
       "sp_atk": 175,
       "sp_def": 105,
       "speed": 150
-    }
+    },
+    "ev": 0,
+    "level": 0
+  },
+  {
+    "name": "Alakazam",
+    "types": [
+      "Psychic"
+    ],
+    "number": "0065",
+    "sub_name": "",
+    "stats": {
+      "total": 500,
+      "exp": 500,
+      "hp": 55,
+      "attack": 50,
+      "defense": 45,
+      "sp_atk": 135,
+      "sp_def": 95,
+      "speed": 120
+    },
+    "ev": 0,
+    "level": 0
   },
   {
     "name": "Machop",
@@ -1374,7 +1520,9 @@
       "sp_atk": 35,
       "sp_def": 35,
       "speed": 35
-    }
+    },
+    "ev": 0,
+    "level": 0
   },
   {
     "name": "Machoke",
@@ -1392,7 +1540,9 @@
       "sp_atk": 50,
       "sp_def": 60,
       "speed": 45
-    }
+    },
+    "ev": 0,
+    "level": 0
   },
   {
     "name": "Geodude",
@@ -1411,26 +1561,9 @@
       "sp_atk": 30,
       "sp_def": 30,
       "speed": 20
-    }
-  },
-  {
-    "name": "Geodude",
-    "types": [
-      "Rock",
-      "Electric"
-    ],
-    "number": "0074",
-    "sub_name": "Alolan Geodude",
-    "stats": {
-      "total": 300,
-      "exp": 300,
-      "hp": 40,
-      "attack": 80,
-      "defense": 100,
-      "sp_atk": 30,
-      "sp_def": 30,
-      "speed": 20
-    }
+    },
+    "ev": 0,
+    "level": 0
   },
   {
     "name": "Geodude",
@@ -1449,7 +1582,30 @@
       "sp_atk": 30,
       "sp_def": 30,
       "speed": 20
-    }
+    },
+    "ev": 0,
+    "level": 0
+  },
+  {
+    "name": "Geodude",
+    "types": [
+      "Rock",
+      "Electric"
+    ],
+    "number": "0074",
+    "sub_name": "Alolan Geodude",
+    "stats": {
+      "total": 300,
+      "exp": 300,
+      "hp": 40,
+      "attack": 80,
+      "defense": 100,
+      "sp_atk": 30,
+      "sp_def": 30,
+      "speed": 20
+    },
+    "ev": 0,
+    "level": 0
   },
   {
     "name": "Graveler",
@@ -1468,7 +1624,9 @@
       "sp_atk": 45,
       "sp_def": 45,
       "speed": 35
-    }
+    },
+    "ev": 0,
+    "level": 0
   },
   {
     "name": "Dewgong",
@@ -1487,7 +1645,9 @@
       "sp_atk": 70,
       "sp_def": 95,
       "speed": 70
-    }
+    },
+    "ev": 0,
+    "level": 0
   },
   {
     "name": "Grimer",
@@ -1506,7 +1666,9 @@
       "sp_atk": 40,
       "sp_def": 50,
       "speed": 25
-    }
+    },
+    "ev": 0,
+    "level": 0
   },
   {
     "name": "Gastly",
@@ -1525,7 +1687,9 @@
       "sp_atk": 100,
       "sp_def": 35,
       "speed": 80
-    }
+    },
+    "ev": 0,
+    "level": 0
   },
   {
     "name": "Haunter",
@@ -1544,26 +1708,9 @@
       "sp_atk": 115,
       "sp_def": 55,
       "speed": 95
-    }
-  },
-  {
-    "name": "Gengar",
-    "types": [
-      "Ghost",
-      "Poison"
-    ],
-    "number": "0094",
-    "sub_name": "Mega Gengar",
-    "stats": {
-      "total": 600,
-      "exp": 600,
-      "hp": 60,
-      "attack": 65,
-      "defense": 80,
-      "sp_atk": 170,
-      "sp_def": 95,
-      "speed": 130
-    }
+    },
+    "ev": 0,
+    "level": 0
   },
   {
     "name": "Gengar",
@@ -1582,7 +1729,30 @@
       "sp_atk": 130,
       "sp_def": 75,
       "speed": 110
-    }
+    },
+    "ev": 0,
+    "level": 0
+  },
+  {
+    "name": "Gengar",
+    "types": [
+      "Ghost",
+      "Poison"
+    ],
+    "number": "0094",
+    "sub_name": "Mega Gengar",
+    "stats": {
+      "total": 600,
+      "exp": 600,
+      "hp": 60,
+      "attack": 65,
+      "defense": 80,
+      "sp_atk": 170,
+      "sp_def": 95,
+      "speed": 130
+    },
+    "ev": 0,
+    "level": 0
   },
   {
     "name": "Exeggutor",
@@ -1601,7 +1771,9 @@
       "sp_atk": 125,
       "sp_def": 75,
       "speed": 45
-    }
+    },
+    "ev": 0,
+    "level": 0
   },
   {
     "name": "Marowak",
@@ -1620,7 +1792,9 @@
       "sp_atk": 50,
       "sp_def": 80,
       "speed": 45
-    }
+    },
+    "ev": 0,
+    "level": 0
   },
   {
     "name": "Dratini",
@@ -1638,7 +1812,9 @@
       "sp_atk": 50,
       "sp_def": 50,
       "speed": 50
-    }
+    },
+    "ev": 0,
+    "level": 0
   },
   {
     "name": "Dragonair",
@@ -1656,7 +1832,9 @@
       "sp_atk": 70,
       "sp_def": 70,
       "speed": 70
-    }
+    },
+    "ev": 0,
+    "level": 0
   },
   {
     "name": "Dragonite",
@@ -1675,6 +1853,8 @@
       "sp_atk": 100,
       "sp_def": 100,
       "speed": 80
-    }
+    },
+    "ev": 0,
+    "level": 0
   }
 ]

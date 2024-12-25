@@ -42,16 +42,16 @@
         "Psychic"
       ],
       "number": "0065",
-      "sub_name": "Mega Alakazam",
+      "sub_name": "",
       "stats": {
-        "total": 600,
-        "exp": 600,
+        "total": 500,
+        "exp": 500,
         "hp": 55,
         "attack": 50,
-        "defense": 65,
-        "sp_atk": 175,
-        "sp_def": 105,
-        "speed": 150
+        "defense": 45,
+        "sp_atk": 135,
+        "sp_def": 95,
+        "speed": 120
       }
     }
   ],
@@ -101,15 +101,15 @@
         "Poison"
       ],
       "number": "0003",
-      "sub_name": "Mega Venusaur",
+      "sub_name": "",
       "stats": {
-        "total": 625,
-        "exp": 625,
+        "total": 525,
+        "exp": 525,
         "hp": 80,
-        "attack": 100,
-        "defense": 123,
-        "sp_atk": 122,
-        "sp_def": 120,
+        "attack": 82,
+        "defense": 83,
+        "sp_atk": 100,
+        "sp_def": 100,
         "speed": 80
       }
     }
@@ -215,15 +215,15 @@
         "Flying"
       ],
       "number": "0006",
-      "sub_name": "Mega Charizard Y",
+      "sub_name": "",
       "stats": {
-        "total": 634,
-        "exp": 634,
+        "total": 534,
+        "exp": 534,
         "hp": 78,
-        "attack": 104,
+        "attack": 84,
         "defense": 78,
-        "sp_atk": 159,
-        "sp_def": 115,
+        "sp_atk": 109,
+        "sp_def": 85,
         "speed": 100
       }
     }
@@ -254,15 +254,15 @@
         "Flying"
       ],
       "number": "0006",
-      "sub_name": "Mega Charizard Y",
+      "sub_name": "",
       "stats": {
-        "total": 634,
-        "exp": 634,
+        "total": 534,
+        "exp": 534,
         "hp": 78,
-        "attack": 104,
+        "attack": 84,
         "defense": 78,
-        "sp_atk": 159,
-        "sp_def": 115,
+        "sp_atk": 109,
+        "sp_def": 85,
         "speed": 100
       }
     }
@@ -379,45 +379,6 @@
         "sp_atk": 81,
         "sp_def": 100,
         "speed": 109
-      }
-    }
-  ],
-  "Dewgong": [
-    {
-      "name": "Dewgong",
-      "types": [
-        "Water",
-        "Ice"
-      ],
-      "number": "0087",
-      "sub_name": "",
-      "stats": {
-        "total": 475,
-        "exp": 475,
-        "hp": 90,
-        "attack": 70,
-        "defense": 80,
-        "sp_atk": 70,
-        "sp_def": 95,
-        "speed": 70
-      }
-    },
-    {
-      "name": "Shellder",
-      "types": [
-        "Water"
-      ],
-      "number": "0090",
-      "sub_name": "",
-      "stats": {
-        "total": 305,
-        "exp": 305,
-        "hp": 30,
-        "attack": 65,
-        "defense": 100,
-        "sp_atk": 45,
-        "sp_def": 25,
-        "speed": 40
       }
     }
   ],
@@ -556,45 +517,6 @@
       }
     }
   ],
-  "Dugtrio": [
-    {
-      "name": "Dugtrio",
-      "types": [
-        "Ground",
-        "Steel"
-      ],
-      "number": "0051",
-      "sub_name": "Alolan Dugtrio",
-      "stats": {
-        "total": 425,
-        "exp": 425,
-        "hp": 35,
-        "attack": 100,
-        "defense": 60,
-        "sp_atk": 50,
-        "sp_def": 70,
-        "speed": 110
-      }
-    },
-    {
-      "name": "Meowth",
-      "types": [
-        "Steel"
-      ],
-      "number": "0052",
-      "sub_name": "Galarian Meowth",
-      "stats": {
-        "total": 290,
-        "exp": 290,
-        "hp": 50,
-        "attack": 65,
-        "defense": 55,
-        "sp_atk": 40,
-        "sp_def": 40,
-        "speed": 40
-      }
-    }
-  ],
   "Gastly": [
     {
       "name": "Gastly",
@@ -659,10 +581,10 @@
       "name": "Geodude",
       "types": [
         "Rock",
-        "Electric"
+        "Ground"
       ],
       "number": "0074",
-      "sub_name": "Alolan Geodude",
+      "sub_name": "",
       "stats": {
         "total": 300,
         "exp": 300,
@@ -678,10 +600,10 @@
       "name": "Graveler",
       "types": [
         "Rock",
-        "Electric"
+        "Ground"
       ],
       "number": "0075",
-      "sub_name": "Alolan Graveler",
+      "sub_name": "",
       "stats": {
         "total": 390,
         "exp": 390,
@@ -691,65 +613,6 @@
         "sp_atk": 45,
         "sp_def": 45,
         "speed": 35
-      }
-    },
-    {
-      "name": "Golem",
-      "types": [
-        "Rock",
-        "Electric"
-      ],
-      "number": "0076",
-      "sub_name": "Alolan Golem",
-      "stats": {
-        "total": 495,
-        "exp": 495,
-        "hp": 80,
-        "attack": 120,
-        "defense": 130,
-        "sp_atk": 55,
-        "sp_def": 65,
-        "speed": 45
-      }
-    }
-  ],
-  "Grimer": [
-    {
-      "name": "Grimer",
-      "types": [
-        "Poison",
-        "Dark"
-      ],
-      "number": "0088",
-      "sub_name": "Alolan Grimer",
-      "stats": {
-        "total": 325,
-        "exp": 325,
-        "hp": 80,
-        "attack": 80,
-        "defense": 50,
-        "sp_atk": 40,
-        "sp_def": 50,
-        "speed": 25
-      }
-    },
-    {
-      "name": "Muk",
-      "types": [
-        "Poison",
-        "Dark"
-      ],
-      "number": "0089",
-      "sub_name": "Alolan Muk",
-      "stats": {
-        "total": 500,
-        "exp": 500,
-        "hp": 105,
-        "attack": 105,
-        "defense": 75,
-        "sp_atk": 65,
-        "sp_def": 100,
-        "speed": 50
       }
     }
   ],
@@ -860,15 +723,15 @@
         "Poison"
       ],
       "number": "0003",
-      "sub_name": "Mega Venusaur",
+      "sub_name": "",
       "stats": {
-        "total": 625,
-        "exp": 625,
+        "total": 525,
+        "exp": 525,
         "hp": 80,
-        "attack": 100,
-        "defense": 123,
-        "sp_atk": 122,
-        "sp_def": 120,
+        "attack": 82,
+        "defense": 83,
+        "sp_atk": 100,
+        "sp_def": 100,
         "speed": 80
       }
     }
@@ -938,94 +801,16 @@
         "Psychic"
       ],
       "number": "0065",
-      "sub_name": "Mega Alakazam",
+      "sub_name": "",
       "stats": {
-        "total": 600,
-        "exp": 600,
+        "total": 500,
+        "exp": 500,
         "hp": 55,
         "attack": 50,
-        "defense": 65,
-        "sp_atk": 175,
-        "sp_def": 105,
-        "speed": 150
-      }
-    }
-  ],
-  "Kakuna": [
-    {
-      "name": "Kakuna",
-      "types": [
-        "Bug",
-        "Poison"
-      ],
-      "number": "0014",
-      "sub_name": "",
-      "stats": {
-        "total": 205,
-        "exp": 205,
-        "hp": 45,
-        "attack": 25,
-        "defense": 50,
-        "sp_atk": 25,
-        "sp_def": 25,
-        "speed": 35
-      }
-    },
-    {
-      "name": "Beedrill",
-      "types": [
-        "Bug",
-        "Poison"
-      ],
-      "number": "0015",
-      "sub_name": "Mega Beedrill",
-      "stats": {
-        "total": 495,
-        "exp": 495,
-        "hp": 65,
-        "attack": 150,
-        "defense": 40,
-        "sp_atk": 15,
-        "sp_def": 80,
-        "speed": 145
-      }
-    }
-  ],
-  "Machoke": [
-    {
-      "name": "Machoke",
-      "types": [
-        "Fighting"
-      ],
-      "number": "0067",
-      "sub_name": "",
-      "stats": {
-        "total": 405,
-        "exp": 405,
-        "hp": 80,
-        "attack": 100,
-        "defense": 70,
-        "sp_atk": 50,
-        "sp_def": 60,
-        "speed": 45
-      }
-    },
-    {
-      "name": "Machamp",
-      "types": [
-        "Fighting"
-      ],
-      "number": "0068",
-      "sub_name": "",
-      "stats": {
-        "total": 505,
-        "exp": 505,
-        "hp": 90,
-        "attack": 130,
-        "defense": 80,
-        "sp_atk": 65,
-        "sp_def": 85,
-        "speed": 55
+        "defense": 45,
+        "sp_atk": 135,
+        "sp_def": 95,
+        "speed": 120
       }
     }
   ],
@@ -1064,24 +849,6 @@
         "sp_atk": 50,
         "sp_def": 60,
         "speed": 45
-      }
-    },
-    {
-      "name": "Machamp",
-      "types": [
-        "Fighting"
-      ],
-      "number": "0068",
-      "sub_name": "",
-      "stats": {
-        "total": 505,
-        "exp": 505,
-        "hp": 90,
-        "attack": 130,
-        "defense": 80,
-        "sp_atk": 65,
-        "sp_def": 85,
-        "speed": 55
       }
     }
   ],
@@ -1240,138 +1007,22 @@
       }
     },
     {
-      "name": "Nidoran♂",
+      "name": "Nidoking",
       "types": [
-        "Poison"
+        "Poison",
+        "Ground"
       ],
-      "number": "0032",
+      "number": "0034",
       "sub_name": "",
       "stats": {
-        "total": 273,
-        "exp": 273,
-        "hp": 46,
-        "attack": 57,
-        "defense": 40,
-        "sp_atk": 40,
-        "sp_def": 40,
-        "speed": 50
-      }
-    },
-    {
-      "name": "Nidorino",
-      "types": [
-        "Poison"
-      ],
-      "number": "0033",
-      "sub_name": "",
-      "stats": {
-        "total": 365,
-        "exp": 365,
-        "hp": 61,
-        "attack": 72,
-        "defense": 57,
-        "sp_atk": 55,
-        "sp_def": 55,
-        "speed": 65
-      }
-    }
-  ],
-  "Oddish": [
-    {
-      "name": "Oddish",
-      "types": [
-        "Grass",
-        "Poison"
-      ],
-      "number": "0043",
-      "sub_name": "",
-      "stats": {
-        "total": 320,
-        "exp": 320,
-        "hp": 45,
-        "attack": 50,
-        "defense": 55,
-        "sp_atk": 75,
-        "sp_def": 65,
-        "speed": 30
-      }
-    },
-    {
-      "name": "Gloom",
-      "types": [
-        "Grass",
-        "Poison"
-      ],
-      "number": "0044",
-      "sub_name": "",
-      "stats": {
-        "total": 395,
-        "exp": 395,
-        "hp": 60,
-        "attack": 65,
-        "defense": 70,
+        "total": 505,
+        "exp": 505,
+        "hp": 81,
+        "attack": 102,
+        "defense": 77,
         "sp_atk": 85,
         "sp_def": 75,
-        "speed": 40
-      }
-    },
-    {
-      "name": "Vileplume",
-      "types": [
-        "Grass",
-        "Poison"
-      ],
-      "number": "0045",
-      "sub_name": "",
-      "stats": {
-        "total": 490,
-        "exp": 490,
-        "hp": 75,
-        "attack": 80,
-        "defense": 85,
-        "sp_atk": 110,
-        "sp_def": 90,
-        "speed": 50
-      }
-    }
-  ],
-  "Pidgeot": [
-    {
-      "name": "Pidgeot",
-      "types": [
-        "Normal",
-        "Flying"
-      ],
-      "number": "0018",
-      "sub_name": "",
-      "stats": {
-        "total": 479,
-        "exp": 479,
-        "hp": 83,
-        "attack": 80,
-        "defense": 75,
-        "sp_atk": 70,
-        "sp_def": 70,
-        "speed": 101
-      }
-    },
-    {
-      "name": "Spearow",
-      "types": [
-        "Normal",
-        "Flying"
-      ],
-      "number": "0021",
-      "sub_name": "",
-      "stats": {
-        "total": 262,
-        "exp": 262,
-        "hp": 40,
-        "attack": 60,
-        "defense": 30,
-        "sp_atk": 31,
-        "sp_def": 31,
-        "speed": 70
+        "speed": 85
       }
     }
   ],
@@ -1402,16 +1053,16 @@
         "Flying"
       ],
       "number": "0018",
-      "sub_name": "Mega Pidgeot",
+      "sub_name": "",
       "stats": {
-        "total": 579,
-        "exp": 579,
+        "total": 479,
+        "exp": 479,
         "hp": 83,
         "attack": 80,
-        "defense": 80,
-        "sp_atk": 135,
-        "sp_def": 80,
-        "speed": 121
+        "defense": 75,
+        "sp_atk": 70,
+        "sp_def": 70,
+        "speed": 101
       }
     }
   ],
@@ -1461,16 +1112,16 @@
         "Flying"
       ],
       "number": "0018",
-      "sub_name": "Mega Pidgeot",
+      "sub_name": "",
       "stats": {
-        "total": 579,
-        "exp": 579,
+        "total": 479,
+        "exp": 479,
         "hp": 83,
         "attack": 80,
-        "defense": 80,
-        "sp_atk": 135,
-        "sp_def": 80,
-        "speed": 121
+        "defense": 75,
+        "sp_atk": 70,
+        "sp_def": 70,
+        "speed": 101
       }
     }
   ],
@@ -1481,16 +1132,16 @@
         "Electric"
       ],
       "number": "0025",
-      "sub_name": "",
+      "sub_name": "Partner Pikachu",
       "stats": {
-        "total": 320,
-        "exp": 320,
-        "hp": 35,
-        "attack": 55,
-        "defense": 40,
-        "sp_atk": 50,
-        "sp_def": 50,
-        "speed": 90
+        "total": 430,
+        "exp": 430,
+        "hp": 45,
+        "attack": 80,
+        "defense": 50,
+        "sp_atk": 75,
+        "sp_def": 60,
+        "speed": 120
       }
     },
     {
@@ -1510,44 +1161,6 @@
         "sp_atk": 95,
         "sp_def": 85,
         "speed": 110
-      }
-    }
-  ],
-  "Psyduck": [
-    {
-      "name": "Psyduck",
-      "types": [
-        "Water"
-      ],
-      "number": "0054",
-      "sub_name": "",
-      "stats": {
-        "total": 320,
-        "exp": 320,
-        "hp": 50,
-        "attack": 52,
-        "defense": 48,
-        "sp_atk": 65,
-        "sp_def": 50,
-        "speed": 55
-      }
-    },
-    {
-      "name": "Golduck",
-      "types": [
-        "Water"
-      ],
-      "number": "0055",
-      "sub_name": "",
-      "stats": {
-        "total": 500,
-        "exp": 500,
-        "hp": 80,
-        "attack": 82,
-        "defense": 78,
-        "sp_atk": 95,
-        "sp_def": 80,
-        "speed": 85
       }
     }
   ],
@@ -1840,25 +1453,6 @@
         "sp_atk": 25,
         "sp_def": 25,
         "speed": 35
-      }
-    },
-    {
-      "name": "Beedrill",
-      "types": [
-        "Bug",
-        "Poison"
-      ],
-      "number": "0015",
-      "sub_name": "Mega Beedrill",
-      "stats": {
-        "total": 495,
-        "exp": 495,
-        "hp": 65,
-        "attack": 150,
-        "defense": 40,
-        "sp_atk": 15,
-        "sp_def": 80,
-        "speed": 145
       }
     }
   ]
